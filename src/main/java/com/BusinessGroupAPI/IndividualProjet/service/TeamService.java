@@ -3,9 +3,10 @@ package com.BusinessGroupAPI.IndividualProjet.service;
 import com.BusinessGroupAPI.IndividualProjet.controller.request.TeamRQ;
 import com.BusinessGroupAPI.IndividualProjet.model.Team;
 import com.fasterxml.jackson.annotation.JacksonInject;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+@Service
 public class TeamService {
     public List<Team> findAll() {
         return null;

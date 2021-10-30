@@ -18,7 +18,7 @@ public class Team {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     @Enumerated
-    private Team teamType;
+    private TeamType teamType;
     private String teamName;
     @OneToMany(mappedBy = "team")
     private List<Funcionary> funcionaries;

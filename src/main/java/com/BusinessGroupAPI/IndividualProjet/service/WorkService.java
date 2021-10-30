@@ -11,7 +11,6 @@ import java.util.List;
 public class WorkService {
 
     private final WorkRepository workRepository;
-    WorkService workService;
 
     public WorkService(WorkRepository workRepository) {
         this.workRepository = workRepository;

@@ -23,7 +23,7 @@ public class Funcionary {
 
     @ManyToOne
     @JoinColumn(name = "team_id", nullable = false)
-    private TeamType team;
+    private Team team;
     @ManyToMany
     @JoinTable(
             name = "work_worked",
