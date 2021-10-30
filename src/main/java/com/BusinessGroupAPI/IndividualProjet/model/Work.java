@@ -1,7 +1,6 @@
 package com.BusinessGroupAPI.IndividualProjet.model;
 
 import lombok.*;
-
 import javax.persistence.*;
 import java.time.LocalDateTime;
 import java.util.Set;

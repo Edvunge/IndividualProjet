@@ -3,7 +3,6 @@ package com.BusinessGroupAPI.IndividualProjet.service;
 import com.BusinessGroupAPI.IndividualProjet.controller.request.FuncionaryRQ;
 import com.BusinessGroupAPI.IndividualProjet.model.Funcionary;
 import com.fasterxml.jackson.annotation.JacksonInject;
-
 import java.util.List;
 
 public class FuncionaryService {
